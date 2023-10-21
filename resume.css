@@ -1,0 +1,158 @@
+body {
+    /* background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg); */
+    background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    max-width: 850px;
+  }
+  
+  img {
+    display: block;
+    width: 70px;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 380px;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 25%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 75%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+
+  .btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 15px;
+    border-radius: 500px;
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+    background: #1338BE;
+    border: 2px solid #1338BE;
+  }
+  .btn:hover {
+    background: transparent;
+    border-color: #1338BE;
+    color: #1338BE;
+  }
+  
+  .previous {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 15px;
+    border-radius: 500px;
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+    background: #1338BE;
+    border: 2px solid #1338BE;
+  }
+
+  .previous:hover {
+    background: transparent;
+    border-color: #1338BE;
+    color: #1338BE;
+  }
+
+  @media screen and (max-device-width: 480px){
+    body {
+      padding: 15px;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    
+    h2 {
+      font-size: 20px;
+    }
+    .menu {
+      width: 350%;
+    }
+
+      img {
+        width: 60px;
+        margin: 8px;
+        margin-left: 390px;
+      }
+
+      .item p {
+        font-size: 20px;
+      }
+      .flavor, .dessert {
+        width: 25%;
+      }
+      
+      .price {
+        width: 75%;
+      }
+    
+        
+
+  }
